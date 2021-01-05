@@ -8,6 +8,7 @@ public class House extends BaseShape {
         super("House", "Multiple", "Multiple", new ArrayList<>());
         this.addShape(new Rectangle("Room", "Bricks", "Orange"));
         this.addShape(new Triangle("Roof", "Clay", "Maroon"));
+        this.addShape(new Triangle("Window", "Wood", "Browm"));
     }
 
 }

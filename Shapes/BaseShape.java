@@ -53,6 +53,7 @@ public class BaseShape {
             for (BaseShape shape: shapePart){
                 shape.printDetails(indent + 4);
             }
+            System.out.println("\n");
         }
     }
 

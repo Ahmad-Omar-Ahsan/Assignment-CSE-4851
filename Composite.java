@@ -47,19 +47,19 @@ public class Composite{
     private static void performOption(int option) {
         switch (option) {
             case 1:
-                System.out.println("Building a house to provide your population to rest!!!.\n");
+                System.out.println("\nBuilding a house to provide your population to rest!!!.\n");
                 village.addShape(new House());
                 break;
             case 2:
-                System.out.println("Trees provide fruits and nourishment as well as shade for your villagers. Congratulations on building a tree!!!\n");
+                System.out.println("\nTrees provide fruits and nourishment as well as shade for your villagers. Congratulations on building a tree!!!\n");
                 village.addShape(new Tree());
                 break;
             case 3:
-                System.out.println("Congratulations!!!. Now villagers have access to Water source\n");
+                System.out.println("\nCongratulations!!!. Now villagers have access to Water source\n");
                 village.addShape(new WaterSource());
                 break;
             case 4:
-                System.out.println("Village Structure View\n");
+                System.out.println("\nVillage Structure View\n");
                 village.printDetails(0);
                 break;
             default:
@@ -73,7 +73,7 @@ public class Composite{
             System.out.printf("%d) %s\n", i, structures.get(i));
         }
 
-        System.out.printf("Enter choice: ");
+        System.out.printf("\nEnter choice: ");
     }
 
 

@@ -8,5 +8,6 @@ public class Tree extends BaseShape{
         this.addShape(new Rectangle("Trunk", "Bark", "Brown"));
         this.addShape(new Circle("Leaves", "Bio", "Green"));
         this.addShape(new Triangle("Root", "Wood", "Brown"));
+        this.addShape(new Circle("Apples", "Bio", "Green"));
     }
 }
